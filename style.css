@@ -72,7 +72,7 @@ footer{
     margin-left:400px;
     width:300px;
     height:300px;
-    border:1px solid blue;
+    border:1.8px solid blue;
     
 }
 .hvc{
@@ -87,7 +87,7 @@ footer{
     margin-right:400px;
     width:300px;
     height:300px;
-    border:1px solid blue;
+    border:1.8px solid blue;
 }
 button{
     background-color: rgb(240,200,115);
@@ -285,25 +285,33 @@ margin-top: 40px;
     border-radius: 7px;
 }
 .mpc a{
-    color: white;
-    font-size: 20pt;
-    padding-left:35px;
+    font-size: 19pt;
+    padding-left:43px;
     margin-top: 30px;
-    background-color: white;
-   
+  
+    
 }
 .mpc a:hover{
     color: red;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font:30px;
+    animation: fadeIn 1s;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .mpd a{
     padding-left:35px;
     margin-top: 30px;
-    color: white;
-    font-size: 20pt; 
+   
+    font-size: 19pt; 
 }
 .mpd a:hover{
     color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font:30px;
+    animation: fadeIn 1s;
 }
 .mpc:hover{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
